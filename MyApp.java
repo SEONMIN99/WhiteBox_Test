@@ -10,9 +10,9 @@ public class MyApp
 {
     public static void main(String[] args)
     {
-        Random sRandom = new Random();
-        String[] s = {"green", "yellow", "red"};
-        String signal = s[sRandom.nextInt(s.length)];
+        Random RandomSignals = new Random();
+        String[] signals = {"green", "yellow", "red"};
+        String signal = signals[RandomSignals.nextInt(signals.length)];
         System.out.println(signal);
         System.out.println(RobotWalk(signal, 20));
     }
