@@ -13,8 +13,8 @@ public class MyApp
         Random RandomSignals = new Random();
         String[] signals = {"green", "yellow", "red"};
         String signal = signals[RandomSignals.nextInt(signals.length)];
-        System.out.println(signal);
-        System.out.println(RobotWalk(signal, 20));
+        System.out.println("Traffic light: " + signal);
+        System.out.println("present speed: " + RobotWalk(signal, 20));
     }
 
     public static double RobotWalk(String signal, double speed)
