@@ -9,12 +9,12 @@ public class Robot
 {
      static double RobotWalk(String signal, double speed)
     {
-        if (signal == "green")
+        if (signal == "녹색")
         {
         }
         else
         {
-            if(signal == "yellow")
+            if(signal == "노란색")
             {
                 speed = speed * 1.2;
             }

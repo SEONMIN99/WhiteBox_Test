@@ -1,4 +1,4 @@
-//import java.util.Random;
+
 /**
  * 여기에 MyApp 클래스 설명을 작성하십시오.
  * 
@@ -10,11 +10,13 @@ public class RobotTest
 {
     public static void main(String[] args)
     {
-        //Random RandomSignals = new Random();
-        //String[] signals = {"green", "yellow", "red"};
-        //String signal = signals[RandomSignals.nextInt(signals.length)];
+        System.out.println("Traffic light: " + "녹색");
+        System.out.println("present speed: " + Robot.RobotWalk("녹색", 20));
         
-        System.out.println("Traffic light: " + signal);
-        System.out.println("present speed: " + RobotWalk(signal, 20));
+        System.out.println("Traffic light: " + "노란색");
+        System.out.println("present speed: " + Robot.RobotWalk("노란색", 20));
+        
+        System.out.println("Traffic light: " + "빨간색");
+        System.out.println("present speed: " + Robot.RobotWalk("빨간색", 20));
     }
 }
