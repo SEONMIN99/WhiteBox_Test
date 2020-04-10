@@ -10,10 +10,10 @@ public class MyApp
 {
     public static void main(String[] args)
     {
-        Random RandomSignals = new Random();
-        String[] signals = {"green", "yellow", "red"};
-        String signal = signals[RandomSignals.nextInt(signals.length)];
-        System.out.println("Traffic light: " + signal);
+        // Random RandomSignals = new Random();
+        // String[] signals = {"green", "yellow", "red"};
+        // String signal = signals[RandomSignals.nextInt(signals.length)];
+        //System.out.println("Traffic light: " + signal);
         System.out.println("present speed: " + RobotWalk(signal, 20));
     }
 
