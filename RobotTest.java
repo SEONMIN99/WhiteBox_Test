@@ -6,18 +6,19 @@ import java.util.Random;
  * @version (2020.04.07)
  */
 
-public class MyApp
+public class RobotTest
 {
     public static void main(String[] args)
     {
         Random RandomSignals = new Random();
         String[] signals = {"green", "yellow", "red"};
         String signal = signals[RandomSignals.nextInt(signals.length)];
+        
         System.out.println("Traffic light: " + signal);
         System.out.println("present speed: " + RobotWalk(signal, 20));
     }
 
-    public static double RobotWalk(String signal, double speed)
+    static double RobotWalk(String signal, double speed)
     {
         if (signal == "green")
         {
