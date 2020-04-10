@@ -17,23 +17,4 @@ public class RobotTest
         System.out.println("Traffic light: " + signal);
         System.out.println("present speed: " + RobotWalk(signal, 20));
     }
-
-    static double RobotWalk(String signal, double speed)
-    {
-        if (signal == "green")
-        {
-        }
-        else
-        {
-            if(signal == "yellow")
-            {
-                speed = speed * 1.2;
-            }
-            else        
-            {
-                speed = 0;
-            }
-        }
-        return speed;
-    }
 }
