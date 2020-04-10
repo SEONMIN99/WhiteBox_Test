@@ -10,13 +10,8 @@ public class RobotTest
 {
     public static void main(String[] args)
     {
-        System.out.println("Traffic light: " + "녹색");
-        System.out.println("present speed: " + Robot.RobotWalk("녹색", 20));
-        
-        System.out.println("Traffic light: " + "노란색");
-        System.out.println("present speed: " + Robot.RobotWalk("노란색", 20));
-        
-        System.out.println("Traffic light: " + "빨간색");
-        System.out.println("present speed: " + Robot.RobotWalk("빨간색", 20));
+        System.out.println("신호:녹색, " + "속도:" + Robot.RobotWalk("녹색", 20));
+        System.out.println("신호:노란색," + "속도:" + Robot.RobotWalk("노란색", 20));
+        System.out.println("신호:빨간색, " + "속도:" + Robot.RobotWalk("빨간색", 20));
     }
 }
